@@ -8,385 +8,357 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.manparvesh.arindamsir.fifthsem.firstappwithhim.stabilityanalysisofgravityretainingwalls.Input" >
 
-<LinearLayout
-		android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:orientation="horizontal" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+        
+        <TextView
+            android:id="@+id/textViewHeader1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Input Retaining wall parameters"
+            android:gravity="center"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/textInputView1_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/editText1_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number" >
+
+            <requestFocus />
+        </EditText>
+        
+    </LinearLayout>
     
-    <TextView
-        android:id="@+id/textView1"
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentTop="true"
-        android:gravity="center"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="14dp"
-        android:text="Input values:"
-        android:textAppearance="?android:attr/textAppearanceLarge" />
-
-    <!-- .............................................................number 1: Height of wall.......................... -->
-    <LinearLayout   
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/textView1"
-        android:orientation="horizontal" >
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
 
         <TextView
-            android:id="@+id/textView2"
+            android:id="@+id/textInputView1_2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Small Text"
-            android:textAppearance="?android:attr/textAppearanceSmall" />
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <EditText
-            android:id="@+id/editText1"
-            android:layout_width="match_parent"
+            android:id="@+id/editText1_2"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:ems="10" >
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number" >
 
             <requestFocus />
         </EditText>
-
+        
     </LinearLayout>
-
-    <!-- .............................................................number 2: Base width.......................... -->
-    <LinearLayout   
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/textView1"
-        android:orientation="horizontal" >
+    
+                <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
 
         <TextView
-            android:id="@+id/textView3"
+            android:id="@+id/textInputView1_3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Small Text"
-            android:textAppearance="?android:attr/textAppearanceSmall" />
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <EditText
-            android:id="@+id/editText11"
-            android:layout_width="match_parent"
+            android:id="@+id/editText1_3"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:ems="10" >
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number" >
 
             <requestFocus />
         </EditText>
-
+        
     </LinearLayout>
-
-    <!-- .............................................................number 3: Height of toe.......................... -->
-    <LinearLayout   
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/textView1"
-        android:orientation="horizontal" >
+    
+                <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
 
         <TextView
-            android:id="@+id/textView4"
+            android:id="@+id/textInputView1_4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Small Text"
-            android:textAppearance="?android:attr/textAppearanceSmall" />
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <EditText
-            android:id="@+id/editText12"
-            android:layout_width="match_parent"
+            android:id="@+id/editText1_4"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:ems="10" >
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number" >
 
             <requestFocus />
         </EditText>
-
+        
     </LinearLayout>
-
-    <!-- .............................................................number 4: Crest width.......................... -->
-    <LinearLayout   
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/textView1"
-        android:orientation="horizontal" >
+    
+                <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
 
         <TextView
-            android:id="@+id/textView25"
+            android:id="@+id/textInputView1_5"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Small Text"
-            android:textAppearance="?android:attr/textAppearanceSmall" />
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <EditText
-            android:id="@+id/editText13"
-            android:layout_width="match_parent"
+            android:id="@+id/editText1_5"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:ems="10" >
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number" >
 
             <requestFocus />
         </EditText>
-
+        
     </LinearLayout>
-
-    <!-- .............................................................number 5: Toe width.......................... -->
-    <LinearLayout   
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/textView1"
-        android:orientation="horizontal" >
+    
+                <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
 
         <TextView
-            android:id="@+id/textView26"
+            android:id="@+id/textInputView1_6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Small Text"
-            android:textAppearance="?android:attr/textAppearanceSmall" />
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <EditText
-            android:id="@+id/editText14"
-            android:layout_width="match_parent"
+            android:id="@+id/editText1_6"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:ems="10" >
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number" >
 
             <requestFocus />
         </EditText>
-
+        
     </LinearLayout>
-
-    <!-- .............................................................number 6: Heel Width.......................... -->
-    <LinearLayout   
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/textView1"
-        android:orientation="horizontal" >
+    
+                <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
 
         <TextView
-            android:id="@+id/textView27"
+            android:id="@+id/textInputView1_7"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Small Text"
-            android:textAppearance="?android:attr/textAppearanceSmall" />
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <EditText
-            android:id="@+id/editText15"
-            android:layout_width="match_parent"
+            android:id="@+id/editText1_7"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:ems="10" >
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number" >
 
             <requestFocus />
         </EditText>
-
+        
     </LinearLayout>
-
-    <!-- .............................................................number 7: Height of heel.......................... -->
-    <LinearLayout   
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/textView1"
-        android:orientation="horizontal" >
+    
+                <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
 
         <TextView
-            android:id="@+id/textView28"
+            android:id="@+id/textInputView1_8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Small Text"
-            android:textAppearance="?android:attr/textAppearanceSmall" />
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <EditText
-            android:id="@+id/editText16"
-            android:layout_width="match_parent"
+            android:id="@+id/editText1_8"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:ems="10" >
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number" >
 
             <requestFocus />
         </EditText>
-
+        
     </LinearLayout>
-
-    <!-- .............................................................number 8: Width of tapered stem towards heel.......................... -->
-    <LinearLayout   
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/textView1"
-        android:orientation="horizontal" >
+    
+                <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
 
         <TextView
-            android:id="@+id/textView29"
+            android:id="@+id/textInputView1_9"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Small Text"
-            android:textAppearance="?android:attr/textAppearanceSmall" />
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <EditText
-            android:id="@+id/editText17"
-            android:layout_width="match_parent"
+            android:id="@+id/editText1_9"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:ems="10" >
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number" >
 
             <requestFocus />
         </EditText>
-
+        
     </LinearLayout>
-
-    <!-- .............................................................number 9: Heel angle.......................... -->
-    <LinearLayout   
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/textView1"
-        android:orientation="horizontal" >
+    
+                <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
 
         <TextView
-            android:id="@+id/textView20"
+            android:id="@+id/textInputView1_10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Small Text"
-            android:textAppearance="?android:attr/textAppearanceSmall" />
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <EditText
-            android:id="@+id/editText18"
-            android:layout_width="match_parent"
+            android:id="@+id/editText1_10"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:ems="10" >
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number" >
 
             <requestFocus />
         </EditText>
-
+        
     </LinearLayout>
-
-    <!-- .............................................................number 10: Height of tapered stem towards heel.......................... -->
-    <LinearLayout   
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/textView1"
-        android:orientation="horizontal" >
+    
+                <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
 
         <TextView
-            android:id="@+id/textView211"
+            android:id="@+id/textInputView1_11"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Small Text"
-            android:textAppearance="?android:attr/textAppearanceSmall" />
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <EditText
-            android:id="@+id/editText19"
-            android:layout_width="match_parent"
+            android:id="@+id/editText1_11"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:ems="10" >
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number" >
 
             <requestFocus />
         </EditText>
-
+        
     </LinearLayout>
-
-    <!-- .............................................................number 11: Width of tapered stem towards toe.......................... -->
-    <LinearLayout   
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/textView1"
-        android:orientation="horizontal" >
+    
+                <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
 
         <TextView
-            android:id="@+id/textView222"
+            android:id="@+id/textInputView1_12"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Small Text"
-            android:textAppearance="?android:attr/textAppearanceSmall" />
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <EditText
-            android:id="@+id/editText110"
-            android:layout_width="match_parent"
+            android:id="@+id/editText1_12"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:ems="10" >
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number" >
 
             <requestFocus />
         </EditText>
-
+        
     </LinearLayout>
-
-    <!-- .............................................................number 12: Toe angle.......................... -->
-    <LinearLayout   
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/textView1"
-        android:orientation="horizontal" >
+    
+                <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
 
         <TextView
-            android:id="@+id/textView233"
+            android:id="@+id/textInputView1_13"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Small Text"
-            android:textAppearance="?android:attr/textAppearanceSmall" />
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <EditText
-            android:id="@+id/editText111"
-            android:layout_width="match_parent"
+            android:id="@+id/editText1_13"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:ems="10" >
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number" >
 
             <requestFocus />
         </EditText>
-
+        
     </LinearLayout>
-
-    <!-- .............................................................number 13: Height of tapered stem towards toe.......................... -->
-    <LinearLayout   
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/textView1"
-        android:orientation="horizontal" >
+    
+                <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
 
         <TextView
-            android:id="@+id/textView244"
+            android:id="@+id/textInputView1_14"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Small Text"
-            android:textAppearance="?android:attr/textAppearanceSmall" />
+            android:text="Medium Text"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <EditText
-            android:id="@+id/editText112"
-            android:layout_width="match_parent"
+            android:id="@+id/editText1_14"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:ems="10" >
+            android:layout_weight="1"
+            android:ems="10"
+            android:inputType="number" >
 
             <requestFocus />
         </EditText>
-
+        
     </LinearLayout>
-
-    <!-- .............................................................number 14: Unit weight of retaining wall material.......................... -->
-    <LinearLayout   
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/textView1"
-        android:orientation="horizontal" >
-
-        <TextView
-            android:id="@+id/textView255"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Small Text"
-            android:textAppearance="?android:attr/textAppearanceSmall" />
-
-        <EditText
-            android:id="@+id/editText113"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:ems="10" >
-
-            <requestFocus />
-        </EditText>
-
+    
+        
+        
     </LinearLayout>
-</LinearLayout>
+    
 </ScrollView>
