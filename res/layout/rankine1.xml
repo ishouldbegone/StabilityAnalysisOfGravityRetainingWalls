@@ -1,0 +1,200 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/stacked_stone_med"
+    tools:context="com.manparvesh.arindamsir.fifthsem.firstappwithhim.stabilityanalysisofgravityretainingwalls.Rankine1" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" 
+        android:gravity="center">
+    
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:textColor="#FBF8EF"
+        android:gravity="center"
+        android:text="Performance of\nRankine Analysis"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textSize="45dp" />
+  							<!-- ..........................................result1.................................... -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:layout_marginTop="10dp"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textViewR1_1"
+            android:layout_width="400dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textColor="#FBF8EF"
+            android:layout_height="60dp"
+            android:text="Factor of safety against overturning (FOS_overturning) = " />
+        
+        <TextView
+            android:id="@+id/textViewR1"
+            android:layout_width="140dp"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textColor="#FBF8EF"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+    </LinearLayout>
+    
+      							<!-- ..........................................result6.................................... -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textViewR1_2"
+            android:layout_width="400dp"
+            android:layout_height="60dp"
+            android:textSize="25dp"
+            android:textColor="#FBF8EF"
+            android:text="Factor of safety against sliding (FOS_slide) = " />
+        
+        <TextView
+            android:id="@+id/textViewR2"
+            android:layout_width="140dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textColor="#FBF8EF"
+            android:text="" />
+
+    </LinearLayout>
+
+  							<!-- ..........................................result2.................................... -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textViewR1_3"
+            android:layout_width="400dp"
+            android:textSize="25dp"
+            android:textColor="#FBF8EF"
+            android:layout_height="60dp"
+            android:text="Factor of safety against bearing (FOS_bearing) = " />
+        
+        <TextView
+            android:id="@+id/textViewR3"
+            android:layout_width="140dp"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textColor="#FBF8EF"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+    </LinearLayout>    
+    
+        
+	
+        
+  							<!-- ..........................................result3.................................... -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textViewR1_4"
+            android:layout_width="400dp"
+            android:textSize="25dp"
+            android:textColor="#FBF8EF"
+            android:layout_height="60dp"
+            android:text="Elastic settlement of retaining wall (Se) = " />
+        
+        <TextView
+            android:id="@+id/textViewR4"
+            android:layout_width="140dp"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textColor="#FBF8EF"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+    </LinearLayout>
+    
+    							<!-- ..........................................result4.................................... -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textViewR1_5"
+            android:layout_width="400dp"
+            android:layout_height="60dp"
+            android:textSize="25dp"
+            android:textColor="#FBF8EF"
+            android:text="Consolidation settlement of retaining wall (Sc) = " />
+        
+        <TextView
+            android:id="@+id/textViewR5"
+            android:layout_width="140dp"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textColor="#FBF8EF"
+            android:text="" />
+
+    </LinearLayout>
+    
+      							<!-- ..........................................result5.................................... -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textViewR1_6"
+            android:layout_width="400dp"
+            android:layout_height="60dp"
+            android:textSize="25dp"
+            android:textColor="#FBF8EF"
+            android:text="Total settlement of retaining wall (St) = " />
+        
+        <TextView
+            android:id="@+id/textViewR6"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:gravity="center"
+            android:textSize="25dp"
+            android:textColor="#FBF8EF"
+            android:text="" />
+
+    </LinearLayout>
+    
+    
+    						<!-- ....................................button................................................. -->
+    <Button
+            android:id="@+id/button5_1"
+            android:layout_width="wrap_content"
+            android:textColor="#FBF8EF"
+            android:textSize="25dp"
+            android:background="@drawable/button_wood"
+            android:layout_marginTop="10dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="182dp"
+            android:text="Proceed to graph" />
+    
+    </LinearLayout>
+</ScrollView>
