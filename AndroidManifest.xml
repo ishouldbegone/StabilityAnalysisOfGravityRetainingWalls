@@ -30,6 +30,42 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.manparvesh.arindamsir.fifthsem.firstappwithhim.stabilityanalysisofgravityretainingwalls.Main" />
         </activity>
+        <activity
+            android:name=".Input2"
+            android:label="@string/title_activity_input2"
+            android:parentActivityName=".Input" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.manparvesh.arindamsir.fifthsem.firstappwithhim.stabilityanalysisofgravityretainingwalls.Input" />
+        </activity>
+        <activity
+            android:name=".Input3"
+            android:label="@string/title_activity_input3" >
+        </activity>
+        <activity
+            android:name=".Graph1"
+            android:label="@string/title_activity_graph1"
+            android:parentActivityName=".Input3" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.manparvesh.arindamsir.fifthsem.firstappwithhim.stabilityanalysisofgravityretainingwalls.Input3" />
+        </activity>
+        <activity
+            android:name=".Rankine1"
+            android:label="@string/title_activity_rankine1"
+            android:parentActivityName=".Graph1" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.manparvesh.arindamsir.fifthsem.firstappwithhim.stabilityanalysisofgravityretainingwalls.Graph1" />
+        </activity>
+        <activity
+            android:name=".FinalGraph"
+            android:label="@string/title_activity_final_graph"
+            android:parentActivityName=".Rankine1" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.manparvesh.arindamsir.fifthsem.firstappwithhim.stabilityanalysisofgravityretainingwalls.Rankine1" />
+        </activity>
     </application>
 
 </manifest>

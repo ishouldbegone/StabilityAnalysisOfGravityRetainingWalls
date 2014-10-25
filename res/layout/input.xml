@@ -6,7 +6,8 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.manparvesh.arindamsir.fifthsem.firstappwithhim.stabilityanalysisofgravityretainingwalls.Input" >
+    tools:context="com.manparvesh.arindamsir.fifthsem.firstappwithhim.stabilityanalysisofgravityretainingwalls.Input" 
+    android:background="@drawable/stacked_stone_med">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -15,77 +16,107 @@
         
         <TextView
             android:id="@+id/textViewHeader1"
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
+            android:textSize="45sp"
+            android:textColor="#FBF8EF"
             android:layout_height="wrap_content"
-            android:text="Input Retaining wall parameters"
+            android:text="Enter Retaining wall parameters:"
             android:gravity="center"
             android:textAppearance="?android:attr/textAppearanceMedium" />
         
+        
+						<!-- .................................Height of wall................................................ -->
         <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+        android:layout_height="match_parent" 
+        android:gravity="center"
+        android:layout_marginTop="15dp" >
 
         <TextView
             android:id="@+id/textInputView1_1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Medium Text"
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:textColor="#FBF8EF"
+            android:textSize="25dp"
+            android:text="Height of wall (m)"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <EditText
             android:id="@+id/editText1_1"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
             android:layout_weight="1"
             android:ems="10"
-            android:inputType="number" >
+            android:background="#FBF8EF" 
+            android:textSize="25dp"
+            android:textColor="#3A2F0B"
+            android:alpha="0.75"
+            android:inputType="number">
 
             <requestFocus />
         </EditText>
         
     </LinearLayout>
     
+						<!-- ................................................................................. -->
         <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+        android:layout_height="match_parent" 
+        android:gravity="center" 
+        android:layout_marginTop="5dp">
 
         <TextView
             android:id="@+id/textInputView1_2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Medium Text"
+            android:layout_width="400dp"
+            android:textColor="#FBF8EF"
+            android:textSize="25dp"
+            android:layout_height="50dp"
+            android:text="Base width (m)"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <EditText
             android:id="@+id/editText1_2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
             android:layout_weight="1"
             android:ems="10"
-            android:inputType="number" >
+            android:background="#FBF8EF" 
+            android:textSize="25dp"
+            android:textColor="#3A2F0B"
+            android:inputType="number" 
+            android:alpha="0.75" >
 
             <requestFocus />
         </EditText>
         
     </LinearLayout>
     
-                <LinearLayout
+						<!-- ................................................................................. -->
+        <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+        android:layout_height="match_parent" 
+        android:layout_marginTop="5dp"
+        android:gravity="center" >
 
         <TextView
             android:id="@+id/textInputView1_3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Medium Text"
+            android:layout_width="400dp"
+            android:textSize="25dp"
+            android:layout_height="50dp"
+            android:textColor="#FBF8EF"
+            android:text="Height of toe (m)"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <EditText
             android:id="@+id/editText1_3"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:layout_height="50dp" 
+            android:textColor="#3A2F0B"
             android:layout_weight="1"
-            android:ems="10"
+            android:ems="10" 
+            android:alpha="0.75"
+            android:textSize="25dp"
+            android:background="#FBF8EF"
             android:inputType="number" >
 
             <requestFocus />
@@ -93,23 +124,32 @@
         
     </LinearLayout>
     
+						<!-- ................................................................................. -->
                 <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+        android:layout_height="match_parent" 
+        android:layout_marginTop="5dp"
+        android:gravity="center" >
 
         <TextView
             android:id="@+id/textInputView1_4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Medium Text"
+            android:layout_width="400dp"
+            android:textSize="25dp"
+            android:textColor="#FBF8EF"
+            android:layout_height="50dp"
+            android:text="Crest width (m)"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <EditText
             android:id="@+id/editText1_4"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:layout_height="50dp" 
+            android:textColor="#3A2F0B"
             android:layout_weight="1"
+            android:textSize="25dp"
+            android:background="#FBF8EF"
             android:ems="10"
+            android:alpha="0.75"
             android:inputType="number" >
 
             <requestFocus />
@@ -119,44 +159,61 @@
     
                 <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
-
-        <TextView
+        android:layout_marginTop="5dp"
+        android:layout_height="match_parent" 
+        android:gravity="center" >
+						<!-- ................................................................................. -->
+        <TextView      
             android:id="@+id/textInputView1_5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Medium Text"
+            android:layout_width="400dp"
+            android:textColor="#FBF8EF"
+            android:textSize="25dp"
+            android:layout_height="50dp"
+            android:text="Toe width (m)"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <EditText
             android:id="@+id/editText1_5"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
             android:layout_weight="1"
-            android:ems="10"
+            android:ems="10" 
+            android:alpha="0.75" 
+            android:textSize="25dp"
+            android:textColor="#3A2F0B"
+            android:background="#FBF8EF"
             android:inputType="number" >
 
             <requestFocus />
         </EditText>
         
     </LinearLayout>
-    
+						<!-- ................................................................................. -->
+                
                 <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+        android:layout_height="match_parent" 
+        android:layout_marginTop="5dp"
+        android:gravity="center" >
 
         <TextView
             android:id="@+id/textInputView1_6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Medium Text"
+            android:layout_width="400dp"
+            android:textSize="25dp"
+            android:layout_height="50dp"
+            android:textColor="#FBF8EF"
+            android:text="Heel Width (m)"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <EditText
             android:id="@+id/editText1_6"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
+            android:layout_width="200dp"
+            android:layout_height="50dp" 
+            android:textColor="#3A2F0B"
+            android:layout_weight="1" 
+            android:alpha="0.75"
+            android:background="#FBF8EF"
+            android:textSize="25dp"
             android:ems="10"
             android:inputType="number" >
 
@@ -164,24 +221,32 @@
         </EditText>
         
     </LinearLayout>
-    
+						<!-- ................................................................................. -->
+                
                 <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+        android:layout_height="match_parent" 
+        android:layout_marginTop="5dp"
+        android:gravity="center" >
 
         <TextView
             android:id="@+id/textInputView1_7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Medium Text"
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:textSize="25dp"
+            android:textColor="#FBF8EF"
+            android:text="Height of heel (m)"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <EditText
             android:id="@+id/editText1_7"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
             android:layout_weight="1"
-            android:ems="10"
+            android:background="#FBF8EF"
+            android:textSize="25dp"
+            android:ems="10" 
+            android:alpha="0.75"
             android:inputType="number" >
 
             <requestFocus />
@@ -189,23 +254,32 @@
         
     </LinearLayout>
     
+						<!-- ................................................................................. -->
                 <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+        android:layout_height="match_parent" 
+        android:layout_marginTop="5dp"
+        android:gravity="center" >
 
         <TextView
             android:id="@+id/textInputView1_8"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Medium Text"
+            android:textSize="25dp"
+            android:layout_width="400dp"
+            android:textColor="#FBF8EF"
+            android:layout_height="50dp"
+            android:text="Width of tapered stem towards heel (m)"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <EditText
             android:id="@+id/editText1_8"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
             android:layout_weight="1"
-            android:ems="10"
+            android:textSize="25dp"
+            android:ems="10" 
+            android:alpha="0.75" 
+            android:textColor="#3A2F0B"
+            android:background="#FBF8EF"
             android:inputType="number" >
 
             <requestFocus />
@@ -213,23 +287,31 @@
         
     </LinearLayout>
     
+						<!-- ................................................................................. -->
                 <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+        android:layout_height="match_parent" 
+        android:layout_marginTop="5dp"
+        android:gravity="center" >
 
         <TextView
             android:id="@+id/textInputView1_9"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Medium Text"
+            android:layout_width="400dp"
+            android:textSize="25dp"
+            android:layout_height="50dp"
+            android:textColor="#FBF8EF"
+            android:text="Heel angle (degrees)"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <EditText
             android:id="@+id/editText1_9"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
             android:layout_weight="1"
-            android:ems="10"
+            android:ems="10" 
+            android:background="#FBF8EF"
+            android:alpha="0.75"
+            android:textSize="25dp"
             android:inputType="number" >
 
             <requestFocus />
@@ -237,23 +319,32 @@
         
     </LinearLayout>
     
+						<!-- ................................................................................. -->
                 <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+        android:layout_marginTop="5dp"
+        android:layout_height="match_parent" 
+        android:gravity="center" >
 
         <TextView
             android:id="@+id/textInputView1_10"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Medium Text"
+            android:layout_width="400dp"
+            android:textSize="25dp"
+            android:textColor="#FBF8EF"
+            android:layout_height="50dp"
+            android:text="Height of tapered stem towards heel (m)"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <EditText
             android:id="@+id/editText1_10"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
             android:layout_weight="1"
             android:ems="10"
+            android:alpha="0.75"
+            android:textSize="25dp"
+            android:background="#FBF8EF" 
+            android:textColor="#3A2F0B"
             android:inputType="number" >
 
             <requestFocus />
@@ -261,23 +352,31 @@
         
     </LinearLayout>
     
+						<!-- ................................................................................. -->
                 <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+        android:layout_marginTop="5dp"
+        android:layout_height="match_parent" 
+        android:gravity="center" >
 
         <TextView
             android:id="@+id/textInputView1_11"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Medium Text"
+            android:layout_width="400dp"
+            android:textSize="25dp"
+            android:textColor="#FBF8EF"
+            android:layout_height="50dp"
+            android:text="Width of tapered stem towards toe (m)"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <EditText
             android:id="@+id/editText1_11"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
             android:layout_weight="1"
-            android:ems="10"
+            android:ems="10" 
+            android:textSize="25dp"
+            android:background="#FBF8EF"
+            android:alpha="0.75"
             android:inputType="number" >
 
             <requestFocus />
@@ -285,23 +384,32 @@
         
     </LinearLayout>
     
+						<!-- ................................................................................. -->
                 <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:gravity="center"  >
 
         <TextView
             android:id="@+id/textInputView1_12"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Medium Text"
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:textSize="25dp"
+            android:textColor="#FBF8EF"
+            android:text="Toe angle (degrees)"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <EditText
             android:id="@+id/editText1_12"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
             android:layout_weight="1"
-            android:ems="10"
+            android:ems="10" 
+            android:background="#FBF8EF"
+            android:alpha="0.75" 
+            android:textColor="#3A2F0B"
+            android:textSize="25dp"
             android:inputType="number" >
 
             <requestFocus />
@@ -309,23 +417,32 @@
         
     </LinearLayout>
     
+						<!-- ................................................................................. -->
                 <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+        android:layout_marginTop="5dp"
+        android:layout_height="match_parent" 
+        android:gravity="center" >
 
         <TextView
             android:id="@+id/textInputView1_13"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Medium Text"
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:textSize="25dp"
+            android:textColor="#FBF8EF"
+            android:text="Height of tapered stem towards toe (m)"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <EditText
             android:id="@+id/editText1_13"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:ems="10"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_weight="1" 
+            android:textSize="25dp"
+            android:textColor="#3A2F0B"
+            android:ems="10" 
+            android:background="#FBF8EF"
+            android:alpha="0.75"
             android:inputType="number" >
 
             <requestFocus />
@@ -333,23 +450,32 @@
         
     </LinearLayout>
     
+						<!-- ................................................................................. -->
                 <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent" >
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:gravity="center" >
 
         <TextView
             android:id="@+id/textInputView1_14"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Medium Text"
+            android:layout_width="400dp"
+            android:layout_height="50dp"
+            android:textSize="25dp"
+            android:textColor="#FBF8EF"
+            android:text="Unit weight of retaining wall material (kN/m3)"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <EditText
             android:id="@+id/editText1_14"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_weight="1"
-            android:ems="10"
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:layout_weight="1" 
+            android:textColor="#3A2F0B"
+            android:ems="10" 
+            android:textSize="25dp"
+            android:background="#FBF8EF"
+            android:alpha="0.75"
             android:inputType="number" >
 
             <requestFocus />
@@ -357,7 +483,21 @@
         
     </LinearLayout>
     
+    					<!-- ..................................BUTTONS............................................... -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="5dp"
+        android:gravity="center" >
         
+        <Button
+            android:id="@+id/button1_1"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:background="@drawable/button_wood"
+            android:text="Next" />
+        
+    </LinearLayout>
         
     </LinearLayout>
     
